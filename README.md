@@ -21,11 +21,32 @@ Cafe-Management-System - **MERN** stack Cafe-Management-System application.
 - Materializecss
 - Json Web Token
 
-## Installation
 
-- Clone the repository
-- Go to the project directory and run the following commands
+## Installation and Setup
 
-`npm install` to install all the dependencies.
+This starter pack includes a basic setup for using **React**. To start building your own components and styles, follow these steps:
 
-`npm run dev` to start the application.
+1. Clone the repository to your local machine.
+    ```sh
+    git clone https://github.com/abhikant12/Cafe-Management-System.git
+    ```
+
+1. Install the required packages.
+    ```sh
+    npm install
+    ```
+
+1. Start the development server.
+    ```sh
+    npm run dev
+    ```
+1. Open the project in your browser at [http://localhost:3000](http://localhost:3000) to view your project.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request. 
+
+## Contact
+- Email: abhiparnav12@gmail.com
+- Linkedin: https://www.linkedin.com/in/abhikant12/
+- Website - [Abhikant Kumar](https://abhikant-portfolio.netlify.app/)
