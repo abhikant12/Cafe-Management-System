@@ -89,7 +89,7 @@ const Dishes = ({ addResData }) => {
           Ok <i className="material-icons right">done</i>
         </a>
       </div>
-    </div>
+    </div> 
   );
 };
 

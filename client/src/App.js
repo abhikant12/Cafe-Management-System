@@ -18,6 +18,8 @@ import NotFound from "./components/NotFound";
 import AuthContext from "./context/auth/authContext";
 import SideNav from "./components/layout/SideNav";
 
+
+
 if (localStorage.getItem("token")) {
   setAuthToken(localStorage.token);
 }

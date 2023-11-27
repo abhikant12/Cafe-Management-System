@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="right">
           <h6>
             Made with ❤ by {" "}
-            <a href="https://abhikant-portfolio.netlify.app/" target="_blank">  <span className="blue-text"> Abhikant Singh</span> </a>
+            <a href="https://abhikant-portfolio.netlify.app/" target="_blank">  <span className="blue-text"> Abhikant Singh, Saurabh Prakash, Prajal Agarwal</span> </a>
           </h6>
         </div>
       </div>

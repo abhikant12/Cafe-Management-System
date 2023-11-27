@@ -8,6 +8,10 @@ const authRoute = require("./routes/authRoute");
 const userRoute = require("./routes/userRoute");
 const restaurantRoute = require("./routes/restaurantRoute");
 const orderRoute = require("./routes/orderRoute");
+const cors = require("cors");
+const paymentRoutes = require("./routes/payment");
+
+
 
 dotenv.config();
 const app = express();
@@ -36,6 +40,8 @@ app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
 app.use("/api/res", restaurantRoute);
 app.use("/api/order", orderRoute);
+app.use("/api/payment/", paymentRoutes);
+
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
